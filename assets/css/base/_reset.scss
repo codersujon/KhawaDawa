@@ -15,3 +15,25 @@ li {
     list-style: none;
 }
 
+/*Flex CSS*/
+
+$flex: flex, inline-flex;
+@each $value in $flex{
+    .d-#{$value}{
+        display:  $value;
+    }
+}
+
+$justify: start, center, end, space-around, space-between, space-evenly;
+@each $value in $justify{
+    .justify-#{$value}{
+        justify-content:  $value;
+    }
+}
+
+$align-items: start, center, end, space-around, space-between, space-evenly;
+@each $value in $align-items{
+    .align-#{$value}{
+        align-items:  $value;
+    }
+}

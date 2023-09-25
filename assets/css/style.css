@@ -16,6 +16,63 @@ li {
   list-style: none;
 }
 
+/*Flex CSS*/
+.d-flex {
+  display: flex;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.align-space-around {
+  align-items: space-around;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+
+.align-space-evenly {
+  align-items: space-evenly;
+}
+
 /* Define Common Color */
 /* Define Theme Color */
 /* Define Font Family */
